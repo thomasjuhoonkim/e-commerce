@@ -9,7 +9,7 @@ const Footer = () => {
       <Typography variant="body1" align="center" gutterBottom>
         Copyright © 2022 thomasjuhoonkim&nbsp;
         <a
-          href="https://github.com/thomasjuhoonkim/odin-calculator"
+          href="https://github.com/thomasjuhoonkim/e-commerce"
           target="_blank"
           rel="noreferrer"
         >

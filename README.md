@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+### [Check it out here!]("https://e-commerce-1010.web.app")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
 
-## Available Scripts
+Here is my fully functional e-commerce website! Its caled Thomas' IKEA Store and it has some best selling IKEA products in the product list. You can go through the entire user experience cycle: browsing, adding to cart, adjusting the cart, checkout, and payment with email confirmations and fulfillment!
 
-In the project directory, you can run:
+### Technicals
 
-### `npm start`
+- I used React for the frontend paired with Material UI to simplify and expedite the styling.
+- I used commerce.js in order to simplify the backend and focus on the funcationality and experience of the website.
+- Stripe was used as the payment system. All payment capabilities were processed in sandbox mode to prevent myself from going broke.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Struggles
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React state management was difficult. Thinking about where to instantiate certain states were difficult as I didn't know where else I might need them down the line.
+- JavaScript Async/Await was finicky at times and I had to add a lot of conditionals before certain components rendered.
+- Modularizing certain components such as checkout forms were difficult, shipping rates are dependent on areas and areas are dependant on the shipping country. Making separate reusable input components didn't make sense as there were many dependencies.
 
-### `npm test`
+### Successes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- I worked with way too much React, I have so much to learn and yet I feel I know so much.
+- API was very user friendly and allowed me to render and update components very easily.
+- Learned Material UI a lot more in-depth and learned to visualize css faster.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Skills:** React.js, MUI, Commerce.js, Stripe.js, Web APIs, Firebase
