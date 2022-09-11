@@ -10,7 +10,7 @@ import { ShoppingCart } from "@material-ui/icons";
 import { Link, useLocation } from "react-router-dom";
 
 import useStyles from "./styles";
-import logo from "../../assets/commerce.png";
+import logo from "../../assets/ikea.png";
 
 const NavBar = ({ totalItems }) => {
   const classes = useStyles();
@@ -33,7 +33,7 @@ const NavBar = ({ totalItems }) => {
               height="25px"
               className={classes.image}
             />
-            Commerce.js
+            Thomas' IKEA Store
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" && (
